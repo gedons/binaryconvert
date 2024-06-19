@@ -96,23 +96,23 @@
   
           switch (this.conversionType) {
             case 'binary-to-decimal':
-              endpoint = 'http://localhost:5000/convert/binary-to-decimal';
+              endpoint = 'https://binaryapi.onrender.com/convert/binary-to-decimal';
               requestData = { binary: this.numberInput };
               break;
             case 'decimal-to-binary':
-              endpoint = 'http://localhost:5000/convert/decimal-to-binary';
+              endpoint = 'https://binaryapi.onrender.com/convert/decimal-to-binary';
               requestData = { decimal: this.numberInput };
               break;
             case 'signed-binary-to-decimal':
-              endpoint = 'http://localhost:5000/convert/signed-binary-to-decimal';
+              endpoint = 'https://binaryapi.onrender.com/convert/signed-binary-to-decimal';
               requestData = { binary: this.numberInput };
               break;
             case 'decimal-to-hex':
-              endpoint = 'http://localhost:5000/convert/decimal-to-hex';
+              endpoint = 'https://binaryapi.onrender.com/convert/decimal-to-hex';
               requestData = { decimal: this.numberInput };
               break;
             case 'binary-to-hex':
-              endpoint = 'http://localhost:5000/convert/binary-to-hex';
+              endpoint = 'https://binaryapi.onrender.com/convert/binary-to-hex';
               requestData = { binary: this.numberInput };
               break;
             default:

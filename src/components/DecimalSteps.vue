@@ -43,7 +43,7 @@ export default {
       }
 
       try {
-        const response = await axios.post('http://localhost:5000/convert/binary-to-decimal-steps', {
+        const response = await axios.post('https://binaryapi.onrender.com/convert/binary-to-decimal-steps', {
           binary: this.number,
         });
         this.steps = response.data.steps;
